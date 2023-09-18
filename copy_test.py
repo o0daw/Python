@@ -75,4 +75,31 @@
 #     print(a.upper())
 # if not a.isdigit():
 #     print(a.lower())
+# //------------------------------ФункціЇ-------------------------------------------------------
+# //------------------------------ФункціЇ-------------------------------------------------------
+# def greet_user(name, surname = "Pupkin"):
+#     print("Hello,", name, surname)
+    
+# greet_user(name="Vasya", surname="Pupkin")
+# greet_user("Petya", "Pyatochkin")
+# //-------------------------------------------------------------------------------------
+# def make_short(prints = "I love Python", size = "L"):
+#     print("Розмір, ", size)
+#     print("Прінт, ", prints)
+# make_short("apple","50")
+# make_short()
+# make_short(size="M")
+# make_short(prints="i = python")
+# make_short(prints="MAC", size="60")
+# //-------------------------------------------------------------------------------------
+# import math
+# def Geron (a, b, c):
+#     p = (a+b+c)/2
+#     s = math.sqrt(p*(p-a)*(p-b)*(p-c))
+#     return s
+# print ("Площа:", Geron(7,8,12))
+# //-------------------------------------------------------------------------------------
+задача номер 3 
+
+
 
