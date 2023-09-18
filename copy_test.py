@@ -38,6 +38,41 @@
 # print(tuple(numbers))
 # //-----------------------------------------------------------------------
 
+# //--------------------------МНоЖИНИ-----------------------------------------------
+# a = set([1,1,2,3,5,8,13,21,34,55,89])
+# b = set([1,2,3,4,5,6,7,8,9,10,11,12,13])
+# c = list(a.intersection(b))
+# print(c)
+# //---------------------------рядкові методи--------------------------------------------
 
-
+# s = 'hEllo woRld'
+# print(s.capitalize())
+# print(s.title())
+# print(s.upper())
+# print(s.lower())
+# print(s.swapcase()) 
+# print(s.center(50))
+# print(s.center(50))
+# print(s.count('l'))
+# score = 30
+# print("Score:", score)
+# print("Score: " + str(score))
+# print(f"Score: {score}")
+# print("Score: {}" .format(score))
+# //-------------------------------------------------------------------------------------
+# s = 'hEllo woRld'
+# print(s.startswith("h"))
+# print(s.endswith("m"))
+# s1 = '            \n\n\naaaaaaa \n\n\n                   '
+# print(s1.strip())
+# //-------------------------------------------------------------------------------------
+ 
+# a = 'Клара у Карла 123 вкрала кларнет 456'
+# if 'р' in a:
+#     print(a.title())
+# print(a.count('а'))
+# if not a.isalpha():
+#     print(a.upper())
+# if not a.isdigit():
+#     print(a.lower())
 
