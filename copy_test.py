@@ -99,7 +99,47 @@
 #     return s
 # print ("Площа:", Geron(7,8,12))
 # //-------------------------------------------------------------------------------------
-задача номер 3 
+# задача номер 3 
+# def season (number_month):
+#     if number_month in [12,1,2]:
+#         return "Зима"
+#     elif number_month in [3,4,5]:
+#         return "Весна"
+#     elif number_month in [6,7,8]:
+#         return "Літо"
+#     elif number_month in [9,10,11]:
+#         return "Осінь"
+#     else:
+#         return "Такого місяця не існує"
+# print(season(9))
+# //-------------------------Рандомний пароль------------------------------------------------------------
+
+# import random
+
+
+# def random_password():
+#     legth = random.randint(7, 10)
+#     s = ""
+#     for i in range(legth):
+#         a = random.randint(33, 126)
+#         s += chr(a)
+#     return s
+# print(random_password())
+
+# //----------------------------------------------------------------------------------------------------
+from math import acos, sin, cos, pi
+t1= float(input("Enter coordinates t1:"))
+g1= float(input("Enter coordinates g1:"))
+t2= float(input("Enter coordinates t2:"))
+g2= float(input("Enter coordinates g2:"))
+distance = 6371.01 * acos(sin(t1)* sin(t2)+ cos(t1)* cos(t2)* cos(g1-g2))
+print (f"Відстань між точками {distance / pi} км")
+
+
+                   
+                 
+
+    
 
 
 
