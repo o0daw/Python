@@ -127,13 +127,26 @@
 # print(random_password())
 
 # //----------------------------------------------------------------------------------------------------
-from math import acos, sin, cos, pi
-t1= float(input("Enter coordinates t1:"))
-g1= float(input("Enter coordinates g1:"))
-t2= float(input("Enter coordinates t2:"))
-g2= float(input("Enter coordinates g2:"))
-distance = 6371.01 * acos(sin(t1)* sin(t2)+ cos(t1)* cos(t2)* cos(g1-g2))
-print (f"Відстань між точками {distance / pi} км")
+# from math import acos, sin, cos, pi
+# t1= float(input("Enter coordinates t1:"))
+# g1= float(input("Enter coordinates g1:"))
+# t2= float(input("Enter coordinates t2:"))
+# g2= float(input("Enter coordinates g2:"))
+# distance = 6371.01 * acos(sin(t1)* sin(t2)+ cos(t1)* cos(t2)* cos(g1-g2))
+# print (f"Відстань між точками {distance / pi} км")
+# //----------------------------------------------------------------------------------------------------
+# //----------------------------------------------------------------------------------------------------
+def fibonachi ():
+    fib1= 0
+    fib2= 0
+    n = int(input("Введіть порядковий номер числа"))
+    for i in range(n-2):
+      fib_sum = fib1 + fib2
+      fib1=fib2
+      fib2=fib_sum
+print(f("{n} Число в ряді Фібоначчі це -  {fib_sum}"))
+
+
 
 
                    
